@@ -18,21 +18,13 @@ print("A multipicação é igual a", multiplicacao)
 soma_total = soma + subtração + multiplicacao
 print("A soma total dos valores lidos é", soma_total)
 --
-nota1 = 6.1
-nota2 = 5.1
-media = (nota1 + nota2)/2
-print(media)
+# Qual é a dose de água necessária de água em litros que uma pessoa deve tomar?
+# Sabe-se que é preciso multiplicar a massa em kg por 0,03. Elabore um programa que realize esse cálculo
+massa = float(input("Digite a massa: "))
+variavel = 0.03
+qtd_ideal = massa * variavel
+print(qtd_ideal)
 --
-input("Qual é o nome do aluno? ")
-nota1 = float(input("Digite a nota 1: "))
-nota2 = float(input("Digite a nota 2: "))
-media = (nota1 + nota2)/2 # parênteses obrigatório
-print("A média do aluno é: ", media)
---
-input("Qual é o nome do aluno? ")
-nota1 = float(input("Digite a nota 1: "))
-nota2 = float(input("Digite a nota 2: "))
-nota3 = float(input("Digite a nota 3: "))
-media = (nota1 + nota2 + nota3)/3
-print("O aluno fez 3 avaliações e a média do aluno foi: ", media, ", mas relaxa, a nota máxima é 4.")
-
+f = float(input("Digite a temperatura em F: ")) #f= fahrenheit
+celsius = c = 5 * (f - 32)/9
+print(celsius)
